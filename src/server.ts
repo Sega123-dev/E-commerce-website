@@ -3,8 +3,7 @@ const app = express();
 
 app.use(express.static("client"));
 
-app.get("/", (req: any, res: any) => {
-  res.send("Hello World!");
+app.get("/a", (req: any, res: any): void => {
+  res.send("A");
 });
-
 app.listen(3000);
