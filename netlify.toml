@@ -1,2 +1,9 @@
 [build]
     functions = "functions"
+    publish="/client"
+    command = "npm run build"
+    base = "/"
+[[redirects]]
+from = "/"
+to = "/index.html"
+status = 200
