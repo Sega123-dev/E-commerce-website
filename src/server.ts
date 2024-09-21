@@ -3,7 +3,13 @@ const app = express();
 
 app.use(express.static("client"));
 
-app.get("/a", (req: any, res: any): void => {
-  res.send("A");
+app.get("/login", (req: any, res: any): void => {
+  res.send("Log In page");
+});
+app.get("/men", (req: any, res: any): void => {
+  res.send("Men");
+});
+app.get("/women", (req: any, res: any): void => {
+  res.send("Women");
 });
 app.listen(3000);
