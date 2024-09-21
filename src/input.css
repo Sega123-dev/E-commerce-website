@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.arrow-hover-animation:hover .arrow {
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes mymove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 8px;
+  }
+}
