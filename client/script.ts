@@ -1,7 +1,10 @@
-const countryBanner = document.querySelector("#countryBanner");
+require("dotenv").config();
+
+const countryBanner: HTMLDivElement | null =
+  document.querySelector("#countryBanner");
 
 function fetchUserCountry() {
-  fetch("https://ipinfo.io/json?token=9e3d684e965ac5")
+  fetch(`https://ipinfo.io/json?token=${process.env.IP_INFO_TOKEN}`)
     .then((response) => response.json())
     .then((data) => {
       countryBanner!.innerHTML = `Shipping is avaiable in <a href="#" class="underline">${data.country}</a>.Check out
