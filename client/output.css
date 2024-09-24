@@ -644,12 +644,20 @@ video {
   flex: 1 1 0%;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-2 {
@@ -674,6 +682,11 @@ video {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .p-2 {
