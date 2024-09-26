@@ -1,7 +1,7 @@
-require("dotenv").config();
-
 const countryBanner: HTMLDivElement | null =
   document.querySelector("#countryBanner");
+
+require("dotenv").config();
 
 function fetchUserCountry() {
   fetch(`https://ipinfo.io/json?token=${process.env.IP_INFO_TOKEN}`)
