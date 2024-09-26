@@ -15,7 +15,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "netlify-cli": "^17.36.1",
-    "netlify-lambda": "^2.0.16"
+    "netlify-lambda": "^2.0.16",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.5",

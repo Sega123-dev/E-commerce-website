@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static("client"));
 
 app.get("/login", (req: any, res: any): void => {
-  res.send("Log In page");
+  res.send("Login");
 });
 app.get("/men", (req: any, res: any): void => {
   res.send("Men");
