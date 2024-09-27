@@ -8,3 +8,7 @@ This is a clothing store website inspired by many clothing brands.It is simple a
 # Important note
 
 node_modules and .env files are not pushed to GitHub because i was learning gitignore and wanted to implement that into my project.
+
+# Design
+
+I did not focus too much into the designing since i wanted to focus more on the backend part and to implement more functionalities through JavaScript.
