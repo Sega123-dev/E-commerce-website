@@ -1,5 +1,6 @@
 "use strict";
 const countryBanner = document.querySelector("#countryBanner");
+const select = document.querySelector("select");
 function fetchUserCountry() {
     fetch(`https://ipinfo.io/json?token=9e3d684e965ac5`)
         .then((response) => response.json())
